@@ -1,5 +1,7 @@
 const mongoose = require('mongoose')
 
+
+// MongoDB Schema
 const blogSchema = mongoose.Schema({
     title :{
         type : String,
@@ -26,6 +28,7 @@ const blogSchema = mongoose.Schema({
         required : true
     }
 },{
+    // for insert date and time automatically
     timestamps: true
 })
 

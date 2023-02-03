@@ -7,5 +7,3 @@ module.exports = function(){
         console.log(`Guest Website Server is running on port number : 5000 `);
     })
 }
-
-// ${process.env.MONGO_PASS}
